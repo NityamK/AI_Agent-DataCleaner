@@ -15,6 +15,7 @@ st.sidebar.header("📊 Data Source Selection")
 data_source = st.sidebar.radio(
     "Select Data Source:",
     ["CSV/Excel", "Database Query", "API Data"],
+    
     index=0
 )
 
